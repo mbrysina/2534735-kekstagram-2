@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Margo Kozarezova](https://up.htmlacademy.ru/javascript-individual/2/user/2534735).
-* Наставник: `Неизвестно`.
+* Наставник: `Антон Казаков`.
 
 ---
 
