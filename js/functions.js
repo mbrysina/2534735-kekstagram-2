@@ -3,11 +3,8 @@ function isLengthValid(str , maxLength) {
 }
 
 function isPalindrome(str) {
-  const cleanedStr = str.replaceAll(' ', '');
+  const cleanedStr = str.toLowerCase().replaceAll(' ', '');
   const reversedStr = cleanedStr.split('').reverse().join('');
   return cleanedStr === reversedStr;
-  function toLowerCaseString(str) {
-    return str.toLowerCase();
-  }
 }
 isPalindrome('Топот');
