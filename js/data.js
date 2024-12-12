@@ -18,10 +18,7 @@ const MESSAGES = [
 
 const NAMES = ['Артём', 'Светлана', 'Евгений', 'Ксения', 'Максим', 'Ольга', 'Дмитрий', 'Анна'];
 
-export function generateComments(numberOfComments) {
-  const comments = [];
-
-  for (let i = 0; i < numberOfComments; i++) {
+for (let i = 0; i < numberOfComments; i++) {
     const commentId = i + 1;
     const comment = {
       id: commentId,
@@ -31,12 +28,6 @@ export function generateComments(numberOfComments) {
     };
     comments.push(comment);
   }
-
-  return comments;
-}
-
-export function generatePhotos() {
-  const photos = [];
 
   for (let i = 1; i <= MAX_PHOTOS; i++) {
     const photo = {
@@ -49,5 +40,4 @@ export function generatePhotos() {
     photos.push(photo);
   }
 
-  return photos;
-}
+export { generatePhotos };

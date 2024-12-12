@@ -1,4 +1,3 @@
-export function generatePhotos() {
-  const photos = [];
-  return photos;
-}
+import { generatePhotos } from './data.js';
+
+generatePhotos();
